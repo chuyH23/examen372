@@ -45,6 +45,7 @@ for file in index.html style.css app.js main.py
     mv file4.txt docs/text
     mv file5.txt docs/text
  
+ mv meme.jpg img
  history > history.txt
 
 

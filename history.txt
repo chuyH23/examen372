@@ -1,20 +1,3 @@
-  117  program .
-  118  code .
-  119  code .
-  120  cd c:
-  121  cd/userh
-  122  cd users
-  123  cd chuyh
-  124  mkdir retoo
-  125  cd retoo
-  126  code .
-  127  cd c:
-  128  cd users
-  129  cd chuyh
-  130  mkdir retoTerminal
-  131  mkdir -p ./TallerClase/archivos
-  132  mkdir -p ./TallerClase/MoverImagen1Aqui
-  133  cd ./TallerClase/archivos
   134  mkdir -p ./textoPlano
   135  mkdir -p ./pdf
   136  cd ./textoPlano
@@ -498,3 +481,20 @@
   614  git status
   615  git commit -m "Third commit, add README.md and final script updated"
   616  history > history.txt
+  617  git status
+  618  git add history.txt
+  619  git status
+  620  git commit -m "Fourth commit, command history added"
+  621  git remote add origin https://github.com/chuyH23/examen372.git
+  622  git branch -M main
+  623  git push -u origin main
+  624  tree
+  625  ./create.sh
+  626  ./create.sh
+  627  git status
+  628  git add .
+  629  git status
+  630  git commit -m "corregido"
+  631  git push
+  632  ./create.sh
+  633   history > history.txt

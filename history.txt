@@ -1,0 +1,500 @@
+  117  program .
+  118  code .
+  119  code .
+  120  cd c:
+  121  cd/userh
+  122  cd users
+  123  cd chuyh
+  124  mkdir retoo
+  125  cd retoo
+  126  code .
+  127  cd c:
+  128  cd users
+  129  cd chuyh
+  130  mkdir retoTerminal
+  131  mkdir -p ./TallerClase/archivos
+  132  mkdir -p ./TallerClase/MoverImagen1Aqui
+  133  cd ./TallerClase/archivos
+  134  mkdir -p ./textoPlano
+  135  mkdir -p ./pdf
+  136  cd ./textoPlano
+  137  touch textoPlano1.txt
+  138  touch textoPlano2.txt
+  139  cd ..
+  140  cd./pdf
+  141  cd ./pdf
+  142  curl -o explicacion.pdf https://www.um.es/innova/OCW/informatica-para-universitarios/ipu_docs/la_shell/bash.pdf
+  143  cd ..
+  144  cd ..
+  145  curl -o imagen1.jpg https://concepto.de/wp-content/uploads/2022/05/meme-e1653582504105.jpg
+  146  mv imagen1.jpg ./MoverImagen1Aqui
+  147  tree ./ > estructura.txt
+  148  echo "el profe rifa y lo quiero mucho" >> estructura.txt
+  149  tree ./
+  150  history | tail -30 >> historial.txt
+  151  cat historial.txt
+  152  cd users
+  153  cd c:
+  154  cd users
+  155  cd chuyh
+  156  mkdir ciclos
+  157  cd ciclos
+  158  touch loops.sh
+  159  chmod +x loops.sh
+  160  nano loops.sh
+  161  nano loops.sh
+  162  nano loops.sh
+  163  ./loops.sh
+  164  nano loops.sh
+  165  ./loops.sh
+  166  nano loops.sh
+  167  code loops.sh 
+  168  git init
+  169  git status
+  170  git add .
+  171  git commit -m "iniciamos proyecto y agregamos practica 1"
+  172  git config --global user.jesus.hernandez.ruiz@uabc.edu.mx
+  173  git config --global user.nam
+  174  git config --global user.mail jesus.hernandez.ruiz@uabc.edu.mx
+  175  git config --global user.name chuyH23
+  176  git remote add origin https://github.com/chuyH23/PracticasDSW
+  177  git push -u origin main
+  178  status
+  179  git status
+  180  git status
+  181  git status
+  182  git status
+  183  git push
+  184  git add .
+  185  git push
+  186  git commit -m"cambio"
+  187  git push
+  188  cd users
+  189  cd user
+  190  cd c:
+  191  cd users
+  192  cd chuyh
+  193  mkdir project1
+  194  cd project1
+  195  touch historia.txt
+  196  code .
+  197  git add historia.txt
+  198  cd c:
+  199  cd users
+  200  cd chuyh
+  201  git status
+  202  git add .
+  203  git comit -m "probamos etiquetas"
+  204  git status
+  205  git add .
+  206  git status
+  207  git add .
+  208  git comit "aqui se prueban algunas etiquetas basicas"
+  209  git comit -m"aqui se prueban algunas etiquetas basicas"
+  210  git comit -m "aqui se prueban algunas etiquetas basicas"
+  211  git commit -m "aqui se prueban algunas etiquetas basicas"
+  212  git push
+  213  git status
+  214  git add .
+  215  git commit -m "aqui se prueban tamaños y colores con html solamente"
+  216  git push
+  217  git status
+  218  git add .
+  219  git commit -m "aqui se prueba la funcion href"
+  220  git push
+  221  git status
+  222  git add .
+  223  git commit -m "aqui se prueba los links con una pagina a eleccion"
+  224  git push
+  225  git status
+  226  git add .
+  227  git commit -m "aqui se jugo con colores en html"
+  228  git push
+  229  git status
+  230  git add .
+  231  git commit -m "aqui se crea nuestra primera tabla"
+  232  git push
+  233  git status
+  234  git add .
+  235  git commit -m "aqui se creamos nuestro horario en una tabla"
+  236  git push
+  237  git status
+  238  git add .
+  239  git commit -m "aqui se creamos nuestro primer formulario"
+  240  git push
+  241  git status
+  242  git add .
+  243  git commit -m "aqui se creamos un formulario con ms variantes de etiquetas"
+  244  git push
+  245  git status
+  246  git add .
+  247  git commit -m "aqui se creamos una tabla con cellspading e imagenes"
+  248  git push
+  249  git status
+  250  git add .
+  251  git commit -m "aqui se creamos una tabla de hoteles combinando celdas"
+  252  git push
+  253  git status
+  254  git add .
+  255  git commit -m "aqui se creamos un formulario en una tabla"
+  256  git push
+  257  git status
+  258  git add .
+  259  git commit -m "aqui creamos un formulario en tabla donde se prueban etiquetas especiales para formulario"
+  260  git push
+  261  git status
+  262  git add .
+  263  git commit -m "aqui usamos css y probamos colores y secciones de las estructura html"
+  264  git push
+  265  git status
+  266  git add .
+  267  git commit -m "aqui probamos los id en los divs"
+  268  git push
+  269  git status
+  270  git add .
+  271  git commit -m "aqui se combinan y se ponen encabezados dentro de otros"
+  272  git push
+  273  git status
+  274  git add .
+  275  git commit -m "aqui se prueban las unidades de medidas que se pueden usar"
+  276  git push
+  277  git status
+  278  git add .
+  279  git commit -m "aqui se crea una pagina con los conocimientos que tengamos"
+  280  git push
+  281  git status
+  282  git add .
+  283  git commit -m "aqui seguimos las reglas segun un pdf que nos indivacaba acciones a seguir"
+  284  git push
+  285  git status
+  286  git add .
+  287  git commit -m "aqui probamos las 3 formas de tener una pagina"
+  288  git push
+  289  git status
+  290  git add .
+  291  git commit -m "iamgenes para las practicas"
+  292  git push
+  293  git status
+  294  git add .
+  295  git commit -m "primera practica con js donde probamos operaciones matematicas"
+  296  git push
+  297  git status
+  298  git add .
+  299  git commit -m "pruebas con condicionales y arrays en js"
+  300  git push
+  301  cd c:
+  302  cd users
+  303  cd chuyh
+  304  mkdir scriptbash
+  305  cd scriptbash
+  306  code .
+  307  ./ createp.sh
+  308  ./createp.sh
+  309  ./createp.sh
+  310  ./createp.sh
+  311  ./createp.sh
+  312  ./createp.sh
+  313  cd pythonClaseareass
+  314  cd pythonClase
+  315  cd ..
+  316  cd pythonClase
+  317  git init
+  318  ls
+  319  cd pythonClaseareass
+  320  cd aaa
+  321  ls
+  322  status
+  323  cd ..
+  324  cd ..
+  325  ./createp.sh
+  326  cd scriptbash
+  327  ./createp.sh
+  328  cd..
+  329  cd..
+  330  cd ..
+  331  cd chuyhreadmee
+  332  ./createp.sh
+  333  ./ createp.sh
+  334  ./createp.sh
+  335  ./createp.sh
+  336  cd scriptbash
+  337  ./createp.sh
+  338  git status
+  339  git init
+  340  git status
+  341  git add .
+  342  git status
+  343  git add .
+  344  git commit -m "programa par e impar"
+  345  git push
+  346  git remote add origin https://github.com/chuyH23/onceProgramas
+  347  git push
+  348  git branch -m main
+  349  git remote add origin https://github.com/chuyH23/onceProgramas
+  350  git push -u origin main
+  351  git config --global user.email jesus.hernandez.ruiz@uabc.edu.mx
+  352  git config --global user.name chuyH23
+  353  git push
+  354  git status
+  355  git add .
+  356  git commit -m "programa de combinar oraciones"
+  357  git push
+  358  git status
+  359  git commit -m "programa contador de palabras"
+  360  git status
+  361  git add .
+  362  git commit -m "programa contador de palabras"
+  363  git push
+  364  git status
+  365  git add .
+  366  git commit -m "programa que pide datos e imprime"
+  367  git push
+  368  git status
+  369  git add .
+  370  git commit -m "programa que pide una frase y saca las siglas"
+  371  git push
+  372  git status
+  373  git add .
+  374  git commit -m "programa piedra papel o tijera el juego"
+  375  git push
+  376  git status
+  377  git add .
+  378  git commit -m "programa adivina el numero 1-50"
+  379  git push
+  380  git status
+  381  git add .
+  382  git commit -m "programa palabra alreves o no"
+  383  git push
+  384  git status
+  385  git add .
+  386  git commit -m "programa que calcula las propinas"
+  387  git push
+  388  git status
+  389  git add .
+  390  git commit -m "programa que identifica por medio de correo"
+  391  git push
+  392  git status
+  393  git add .
+  394  git commit -m "programa que toca canciones de artistas"
+  395  git push
+  396  git status
+  397  git add .
+  398  git commit -m "programa que usa condicionales if y el else if"
+  399  git push
+  400  git status
+  401  git add .
+  402  git commit -m "programa que usa condicionales switch e if para calcular peso en otros planetas"
+  403  git push
+  404  git status
+  405  git add .
+  406  git commit -m "programa que usa ciclos y variantes"
+  407  git push
+  408  git status
+  409  git add .
+  410  git commit -m "programa que usa for in, of y each"
+  411  git push
+  412  git status
+  413  git add .
+  414  git commit -m "primera vez que se usan funciones y se hacen varios ejercicios"
+  415  git push
+  416  cd c
+  417  cd users
+  418  cd chuyh
+  419  mkdir 37216-10-23; cd 37216-10-23
+  420  [200~echo "# 37216-10-23" >> README.md~
+  421  [200~echo "# 37216-10-23" >> README.md
+  422  echo "# 37216-10-23" >> README.md
+  423  git init
+  424  git add README.md
+  425  git commit -m "first commit"
+  426  git branch -M main
+  427  git remote add origin https://github.com/chuyH23/37216-10-23.git
+  428  git push -u origin main
+  429  git status
+  430  git branch --all
+  431  touch main.py
+  432  echo "print('segundo commit')" >> main.py
+  433  git status
+  434  git add main.py
+  435  git commit -m "segundo commit"
+  436  git log --online
+  437  git log --oneline
+  438  git push
+  439  git log --oneline
+  440  git status
+  441  git add 
+  442  git add .
+  443  git commit -m "practica de las 7 maravillas del mundo"
+  444  git push
+  445  history
+  446  cd c:
+  447  cd users
+  448  cd chuyh
+  449  mkdir pruebaExamen
+  450  cd pruebaExamen
+  451  mkdir -p dentro/dentro2
+  452  ls
+  453  cd dentro
+  454  ls
+  455  tree
+  456  touch prueba.txt
+  457  git init
+  458  git status
+  459  git add .
+  460  git commit -m"primero commit"
+  461  touch arh1;arch2;arch3
+  462  touch arh2;touch arch3
+  463  git add arch1
+  464  git 
+  465  git commit -m"segundo comint"
+  466  git add arh2
+  467  git commit -m"tercero comint"
+  468  git add arh3
+  469  git add arch3
+  470  git commit -m"cuarto comint"
+  471  git log --oneline
+  472  git checkout 8742737
+  473  git switch -c rama2
+  474  touch quinto.txt
+  475  git add quinto.txt
+  476  git commit -m"quinto comint"
+  477  git log --oneline --graph --decorate --all
+  478  git checkout main
+  479  ls
+  480  git merge rama2
+  481  ls
+  482  git log --oneline --graph --decorate --all
+  483  git status
+  484  git add .
+  485  git commit -m "practica de juego que incluye dos juegos uno personalizado"
+  486  git push
+  487  cd c:
+  488  cd users
+  489  cd chuyh
+  490  ls
+  491  cd pruebaExamen
+  492  ls
+  493  cd dentro
+  494  ls
+  495  history
+  496  history > vamoaver.txt
+  497  git clone https://gist.github.com/c514e789859c9107c63ab99efe27735d.git
+  498  git clone https://gist.github.com/c514e789859c9107c63ab99efe27735d.git examen372
+  499  code examen372
+  500  mkdir examen372
+  501  mkdir examen372JHR
+  502  cd examen372JHR
+  503  touch create.sh
+  504  echo '#!/bin/bash' > create.sh
+  505  cat create.sh
+  506  git init
+  507  git statusç
+  508  git status
+  509  git status
+  510  git add .
+  511  git add create.sh
+  512  git commit -m "Initial commit, script added"
+  513  code create.sh
+  514  rm -rf webapp
+  515  mkdir webapp
+  516  cd webapp
+  517  mkdir css
+  518  mkdir js
+  519  mkdir docs
+  520  cd docs
+  521  mkdir text
+  522  mkdir python
+  523  cd ..
+  524  mkdir img
+  525  tree
+  526  touch app.js
+  527  touch index.html
+  528  touch main.py
+  529  touch style.css
+  530  tree
+  531  ./create.sh
+  532  ./ create.sh
+  533  cd ..
+  534  ls
+  535  ./create.sh
+  536  5
+  537  tree
+  538  ./create.sh
+  539  tree
+  540  git status
+  541  git add .
+  542  git commit -m "Second commit, structure created"
+  543  history
+  544  cd webapp
+  545  tree
+  546  mv style.css css
+  547  tree
+  548  cd ..
+  549  tree
+  550  mv  file1 docs/text
+  551  mv  file1 text
+  552  mv  file1 docs;mv file1 text
+  553  cd webapp;mv  file1 docs;mv file1 text
+  554  cd webapp
+  555  tree
+  556  mv main.py docs/python
+  557  tree
+  558  mv app.js js
+  559  history
+  560  tree
+  561  mx file1.txt docs/text
+  562  cd ..
+  563  mx file1.txt docs/text
+  564  cd webapp
+  565  mv file1.txt docs/text
+  566  cd ..
+  567  mv file1.txt docs/text
+  568  tree
+  569  cd webapp
+  570  tree
+  571  mv file1.txt docs/text
+  572  cd ..
+  573  tree
+  574  mv file1.txt docs/text
+  575  mv file1.txt webapp/docs/text
+  576  mv file2.txt webapp/docs/text
+  577  mv file3.txt webapp/docs/text
+  578  mv file4.txt webapp/docs/text
+  579  mv file5.txt webapp/docs/text
+  580  tree
+  581  history
+  582  tree
+  583  ls
+  584  ./ create.sh
+  585  ./create.sh
+  586  ./create.sh
+  587  ./create.sh
+  588  ./create.sh
+  589  mv examen372.md examen372JHR
+  590  ls
+  591  cd ..
+  592  ls
+  593  cd examen372
+  594  ls
+  595  cd..
+  596  cd ..
+  597  ls
+  598  mv examen372.md examen372JHR
+  599  cd examen372
+  600  ls
+  601  mv examen372 ~/examen372JHR
+  602  mv examen372.md ~/examen372JHR
+  603  cd ..
+  604  cd examen372JHR
+  605  ls
+  606  history
+  607  ls
+  608  mv examen 372.md README.md
+  609  mv examen372.md README.md
+  610  ls
+  611  git status
+  612  git add READ.md
+  613  git add .
+  614  git status
+  615  git commit -m "Third commit, add README.md and final script updated"
+  616  history > history.txt
